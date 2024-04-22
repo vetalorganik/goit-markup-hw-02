@@ -4,14 +4,6 @@ body {
     background-color: #ffffff;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .header {}
 
 .header__nav {}
@@ -26,8 +18,12 @@ body {
     color: #4d5ae5;
 }
 
-.logo span {
+.logo .accent-dark {
     color: #2e2f42;
+}
+
+.logo .accent-light {
+    color: #f4f4fd;
 }
 
 .nav-list {}
@@ -146,7 +142,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    color: #2e2f42;
 }
 
 .team-member__profession {
@@ -177,7 +173,8 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-item__text {
@@ -192,7 +189,7 @@ body {
 }
 
 .logo-light {
-    background-color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .footer__text {
